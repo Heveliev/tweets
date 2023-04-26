@@ -26,12 +26,17 @@ import { fetchAllTweets } from "redux/tweets/tweets-thunk";
     const [data, setData] = useState([]);
 
     useEffect(()=>{
-        const savedTweets = localStorage.getItem('persist:tweets');
-        if(!savedTweets){
-            dispatch(fetchAllTweets())
-        }
-
-    },[dispatch])
+      try {
+        const savedTweets = JSON.parse(localStorage.getItem('persist:tweets'));
+      const savedTweetsObj = JSON.parse(savedTweets['items']);
+      if (!savedTweetsObj.length) {
+        dispatch(fetchAllTweets());
+      }
+      } catch (error) {
+        alert(`Sorry, pls reload website error:${error}`)
+      }
+      
+  },[dispatch])
 
     useEffect(() => {
         setTotalPages(Math.ceil(tweets.length / tweetsInPage));
