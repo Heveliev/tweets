@@ -20,7 +20,4 @@ If the user entered using a non-existent route, he will be redirected to the hom
 
 Added filtering. Dropdown with 3 options: show all, follow, followings. show all - show all tweets. follow - show tweets with follow status. followings - show tweets with the following status
 
-
-
-
 Layout: https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0%3A1&t=VoiYTfiXggVItgVd-1
