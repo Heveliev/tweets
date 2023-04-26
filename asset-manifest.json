@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tweets/static/css/main.22835b9d.css",
+    "main.js": "/tweets/static/js/main.154f3448.js",
+    "static/media/bcgImg.png": "/tweets/static/media/bcgImg.032662a2a907475127d7.png",
+    "static/media/logo.svg": "/tweets/static/media/logo.e917114d7945c04c85a8946a331d28b6.svg",
+    "index.html": "/tweets/index.html",
+    "main.22835b9d.css.map": "/tweets/static/css/main.22835b9d.css.map",
+    "main.154f3448.js.map": "/tweets/static/js/main.154f3448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22835b9d.css",
+    "static/js/main.154f3448.js"
+  ]
+}
